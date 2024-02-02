@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Title - Vallejo Public Library</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/library-services">Library Services</a></li>
+                <li><a href="/book-catalog">Book Catalog</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Book Title</h1>
+            <p>Author: Jane Doe</p>
+            <p>Genre: Fiction</p>
+            <p>ISBN: 123456789</p>
+            <p>Published: 2024</p>
+            <p>Description: This book is about...</p>
+            <section>
+                <h2>Availability</h2>
+                <p>Total Copies: 10</p>
+                <p>Available: 4</p>
+            </section>
+            <section>
+                <h2>Reserve this Book</h2>
+                <form action="/reserve-book" method="post">
+                    <input type="hidden" name="book_id" value="123">
+                    <button type="submit">Reserve</button>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>© Vallejo Public Library</p>
+    </footer>
+</body>
+</html>
